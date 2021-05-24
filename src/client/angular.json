@@ -30,12 +30,7 @@
               "src/favicon.ico",
               "src/assets"
             ],
-            "styles": [
-              "src/styles.scss",
-              {
-                "input": "src/theme/variables.css"
-              }
-            ],
+            "styles": [],
             "scripts": []
           },
           "configurations": {

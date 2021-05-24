@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "6C68qo8FqE6w439wiqD5ivjlxIG9rF0UmbcyAWbP05P4ynXuJsfjBgCG0jFv+FKBqTXfXrQ5W0qAqo7L7TGqRw==",
+  "success": true,
+  "projectFilePath": "D:\\Projects\\Personal\\AngularPortfolio\\src\\api\\AngularPortfolio\\AngularPortfolio.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Harvir\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Harvir\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Harvir\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\Harvir\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\Harvir\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\Harvir\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}

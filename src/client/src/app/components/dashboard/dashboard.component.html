@@ -1,0 +1,23 @@
+<p-menubar [model]="items">
+  <ng-template pTemplate="start">
+    <img src="assets/Harvey.png" height="60" class="p-mr-2" alt="Cartoon image of Harvey">
+    <div></div>
+  </ng-template>
+  <ng-template pTemplate="end">
+    <button pButton type="button" icon="pi pi-github" class="p-button-rounded p-ml-2" (click)="goGithub()"></button>
+    <button pButton type="button" icon="pi pi-briefcase" class="p-button-rounded p-ml-2" (click)="goLinkedIn()"></button>
+    <button pButton type="button" icon="pi pi-facebook" class="p-button-rounded p-ml-2" (click)="goFacebook()"></button>
+  </ng-template>
+</p-menubar>
+<header id="dashboardHome" class="narrow-width">
+  <h1 class="title-name">Harvey Singh</h1>
+  <p class="subtitle">Full Stack Software Developer</p>
+
+  <div class="header-flex-container">
+    <div class="profile-info-container">
+      <p class="h4">Hi, I'm Harvey!</p>
+      <p>I design and develop web applications in various languages</p>
+      <p>I am currently working at <a href="https://www.argusmedia.com/en" target="_blank">Argus Media</a> as a Software Engineer</p>
+    </div>
+  </div>
+</header>

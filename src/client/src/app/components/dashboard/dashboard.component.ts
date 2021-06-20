@@ -8,10 +8,9 @@ import { MenuItem, PrimeIcons, PrimeNGConfig } from 'primeng/api';
 })
 export class DashboardComponent implements OnInit {
 
-  items: MenuItem[];
+  items: MenuItem[] = [];
 
   constructor(primeNgConfig: PrimeNGConfig) {
-    this.items = [];
     primeNgConfig.ripple = true;
   }
 

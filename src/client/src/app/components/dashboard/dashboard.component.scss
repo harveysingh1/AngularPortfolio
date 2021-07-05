@@ -77,7 +77,16 @@ h6 {
     -webkit-box-align: center;
     flex-wrap: wrap;
 
+    .profile-image-container {
+      flex: 1 0 15rem;
+
+      img {
+        width: 100%;
+      }
+    }
+
     .profile-info-container {
+      flex: 1 0 15rem;
 
       .h4 {
         color: var(--yellow-500);
@@ -86,8 +95,31 @@ h6 {
       p {
         color: var(--blue-500);
       }
+    }
+  }
+}
 
+#work {
+  width: 100%;
+  background-color: #F6646C;
+  clip-path: polygon(0% 0%, 100% 20%, 100% 100%, 0% 80%);
+  color: #FFFFFF;
 
+  .work-container {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+    h1 {
+      text-align: center;
+      font-weight: 100;
+      text-transform: uppercase;
+      font-size: 2.5rem;
+      text-decoration: underline;
+      color: #FFFFFF;
+    }
+
+    h2 {
+      font-weight: 500;
     }
   }
 

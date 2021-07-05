@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import {IconRegistryService} from './services/icon-registry.service';
 
 @Component({
   selector: 'app-root',
@@ -7,7 +6,6 @@ import {IconRegistryService} from './services/icon-registry.service';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  constructor(private iconRegistryService: IconRegistryService) {
-    iconRegistryService.registerIcons();
+  constructor() {
   }
 }
